@@ -1,11 +1,18 @@
 # Site settings
 title: Properties of a cat
 email: damodaran.balaji@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  "...Although I can't see much point in it."
+footer_quote: | # this means to ignore newlines until "baseurl:"
+  <div style="text-align:right;"><i>"...Although I can't see much point in it." 
+  <br/>
+  <br/>
   "Then why are you here?"
+  <br/>
+  <br/>
   "Hmmph. Curiosity perhaps."
-  - Neil Gaiman (in 'A Dream of a thousand cats')
+  <br/></i>
+  -<strong>Neil Gaiman</strong><br>
+  <small>(A Dream of a thousand cats)</small></div>
+description: balaji damodaran's blog about programming and life
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://balaji-damodaran.com" # the base hostname & protocol for your site
 twitter_username: openbala
