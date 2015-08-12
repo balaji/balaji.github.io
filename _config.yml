@@ -13,10 +13,11 @@ footer_quote: | # this means to ignore newlines until "baseurl:"
   -<strong>Neil Gaiman</strong><br>
   <small>(A Dream of a thousand cats)</small></div>
 description: balaji damodaran's blog about programming and life
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://balaji-damodaran.com" # the base hostname & protocol for your site
+baseurl: "" 
+url: "http://balaji-damodaran.com" 
 twitter_username: openbala
 github_username: balaji 
 
 # Build settings
 markdown: kramdown
+paginate: 5
