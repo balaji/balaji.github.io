@@ -1,7 +1,7 @@
 # Site settings
 title: Properties of a cat
 email: damodaran.balaji@gmail.com
-footer_quote: | # this means to ignore newlines until "baseurl:"
+footer_quote: |
   <div style="text-align:right;"><i>"...Although I can't see much point in it." 
   <br/>
   <br/>
@@ -20,4 +20,5 @@ github_username: balaji
 
 # Build settings
 markdown: kramdown
-paginate: 5
+paginate: 7
+paginate_path: "/archives/page/:num"

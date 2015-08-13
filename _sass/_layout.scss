@@ -172,10 +172,6 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
 }
 
 .post-meta {
@@ -185,10 +181,8 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
 }
-
-
 
 /**
  * Posts
@@ -198,13 +192,19 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 26px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
 }
 
 .post-content {
