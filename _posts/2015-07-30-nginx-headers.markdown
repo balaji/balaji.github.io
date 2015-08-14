@@ -3,6 +3,7 @@ layout: post
 title:  "Nginx CORS headers, proxy_pass and if module"
 date:   2015-07-30 01:11:54
 categories: Programming
+tags: ['nginx', 'cors', 'reverse proxy']
 ---
 
 1. Setting up reverse proxy in nginx is straight forward using the proxy_pass directive.

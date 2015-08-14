@@ -206,7 +206,11 @@
     margin-right: auto;
     width: 200px;
 }
-
+#tag-cloud {
+  a {
+    margin-left: 15px;
+  }
+}
 .post-content {
     margin-bottom: $spacing-unit;
 

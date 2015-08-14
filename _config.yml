@@ -2,7 +2,7 @@
 title: Properties of a cat
 email: damodaran.balaji@gmail.com
 footer_quote: |
-  <div style="text-align:right;"><i>"...Although I can't see much point in it." 
+  <div style="text-align:right;"><i>"...Although I can't see much point in it."
   <br/>
   <br/>
   "Then why are you here?"
@@ -13,12 +13,14 @@ footer_quote: |
   -<strong>Neil Gaiman</strong><br>
   <small>(A Dream of a thousand cats)</small></div>
 description: balaji damodaran's blog about programming and life
-baseurl: "" 
-url: "http://balaji-damodaran.com" 
+baseurl: ""
+url: "http://balaji-damodaran.com"
 twitter_username: openbala
-github_username: balaji 
+github_username: balaji
 
 # Build settings
 markdown: kramdown
 paginate: 7
 paginate_path: "/archives/page/:num"
+tag_page_layout: tag_page
+tag_page_dir: tag

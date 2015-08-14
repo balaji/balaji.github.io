@@ -3,6 +3,7 @@ layout: post
 title:  "Capistrano & Java (or using capistrano to execute remote commands)"
 date:   2014-04-27
 categories: Programming
+tags: ['capistrano', 'java', 'deployment']
 ---
 
 Assumption:
