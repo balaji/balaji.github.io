@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Properties of a cat</title>
+    <description>balaji damodaran&#39;s blog about programming and life</description>
+    <link>http://balaji-damodaran.com/</link>
+    <atom:link href="http://balaji-damodaran.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 Aug 2015 21:47:54 +0530</pubDate>
+    <lastBuildDate>Fri, 14 Aug 2015 21:47:54 +0530</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Motorcycling as a hobby</title>
+        <description>&lt;p&gt;TL:DR; Personal post. Nothing worth reading.&lt;/p&gt;
+
+&lt;p&gt;I was late to motorcycling, but as a kid I used to love cycling. It felt like I was flying. I didn’t own a cycle until I was 10 or 11. But those days, we can rent a cycle for 1 hour for 1 rupee.&lt;/p&gt;
+
+&lt;p&gt;When I first rode a motorized vehicle, it was an old Bajaj vespa scooter and I was 16. The next year my brother bought a pulsar and the next year I bought a used Royal Enfield Bullet Standard 350. I loved the riding comfort, the beat and the style mainly. This started my tryst with motorcycling. My college was close to 16km away from my house and my house was 25km away from the city. So, I’m used to being in the bike more often than not.&lt;/p&gt;
+
+&lt;p&gt;Then I got a job and now my offices were either 30km south or 20km north. So the riding continued.&lt;/p&gt;
+
+&lt;p&gt;Then I got married and had a kid and then I had another kid. So my priorities were different. I sold my bullet, with a heavy heart I must add. I remember the day when the new owner came to collect the bullet and I never left my bedroom. I bought a commuter bike for married life - Hero Honda Hunk. Now that my life has settled into a rythm (more or less), my heart started to wander a bit. Call it midlife crisis, call it ‘answering my inner voice’ or just reawakening of my desire to ride - I bought a Royal Enfield Bullet Standard 500 (this one is with the new UCE engine, that is way better sans the charm of the old CI engine) and I joined a local motorcycling club with an intention to ride often and ride long.&lt;/p&gt;
+
+&lt;p&gt;Its been 4 months since I bought my &lt;del&gt;bike&lt;/del&gt; bullet. I’ve already been to a places like Javadi hills, Yelagiri hills, Pondicherry, Mysore, Mahabalipuram.&lt;/p&gt;
+
+&lt;h4 id=&quot;so-here-are-some-note-to-self-when-it-comes-to-riding&quot;&gt;&lt;strong&gt;So, here are some &lt;em&gt;Note to Self&lt;/em&gt; when it comes to riding.&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;# Skills&lt;/p&gt;
+
+&lt;p&gt;Just like any other hobby - you need skill to drive the machine. To ensure that you control the bike and not the other way, to save yourself and others on the road. This is a costly hobby - right from the bike to riding gear to petrol to tools to travel expenses. You can’t pirate or borrow (atleast not everything). My initial learning was done the hard way - I made &lt;strong&gt;every&lt;/strong&gt; mistake there is to make while riding a motorcycle - and luckily I survived and the knowledge of surviving an accident helps in anticipating another accident that will be similar to the one you had, but this will not equip you to handle another type of accident to which you are not prepared for. I’m relying on by peers’ knowledge as well as some excellent riding manuals.&lt;/p&gt;
+
+&lt;h1 id=&quot;maintenance&quot;&gt;Maintenance&lt;/h1&gt;
+
+&lt;p&gt;Invest in the tools. If you love program development - then buy the best computer and ergonomic equipments - keyword, mouse, table, chair, etc. Similarly, when it comes to riding - invest in the best motorcyle that would suit your personality, suit your riding posture and suit your intentions. Learn the art of maintaining the bike, take it part and put it back together. It is a harsh reality for every bullet owner and generally a good advise for every bike owner. oh BTW, fixing a bike in itself is an art form that may people pursue.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-it-means-to-ride&quot;&gt;What it means to ride&lt;/h1&gt;
+
+&lt;p&gt;Its kind of an silly question actually. Its like asking a person ‘what it is to read a book or listen to a song or watch a movie or sew a dress’. The answer is the same. It makes me happy. It puts me in a zone that is close to meditation, in a mood that makes me feel like I’m flying without cluttered emotions. It puts me in touch with mother earth in all her glory. As a rider pointed out in his blog &lt;a href=&quot;http://www.hoohoohoblin.com/&quot;&gt;http://www.hoohoohoblin.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Riding a motorcycle is a form of karma yoga.  Karma literally translated means “action.”  Many people have misinterpreted it as the law of cause and effect, but that is not accurate.  Though it is true that if you are truly connected to everything, and everything is connected to you, then that which you do to another person, you are also doing to yourself, because you are that, they are that, and that is all there is.  But this doesn’t mean you will be punished for doing bad things to other people, or that someone is keeping score and will even things up before you die.  Riding a motorcycle is a way to clear the mind, interact with physical reality, and feel connected to the world.  I like it.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;and thats all there is to it. I will ride as long as it is possible for me to.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Aug 2015 04:32:00 +0530</pubDate>
+        <link>http://balaji-damodaran.com/personal/2015/08/11/motorcycling.html</link>
+        <guid isPermaLink="true">http://balaji-damodaran.com/personal/2015/08/11/motorcycling.html</guid>
+        
+        <category>motorcycling</category>
+        
+        <category>hobbies</category>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+      <item>
+        <title>AWS Elastic Beanstalk ,Docker and Nginx</title>
+        <description>&lt;p&gt;AWS Elastic Beanstalk is the equivalent of ‘rails’[1] in AWS world to deploy a project (almost in any stack) as quickly as possible without handling the low level details such as web servers, reverse proxies, load balancers, security groups, auto scaling groups, etc. So when you intend to host a cluster of nginx reverse proxies, AWS Elastic Beanstalk seems to a good choice, but unfortunately there aren’t much literature out there on how to do this.&lt;/p&gt;
+
+&lt;h2 id=&quot;docker&quot;&gt;Docker&lt;/h2&gt;
+
+&lt;p&gt;So we need to treat nginx as an application deployed on a cluster of machines managed by a load balancer, may be within VPC and auto scaling rules. Docker is a good option in such a case because it makes no assumptions about the kind of application that will be deployed on top of it and AWS Elastic Beanstalk has first class support for dockers.&lt;/p&gt;
+
+&lt;h1 id=&quot;single-container-docker-vs-multi-container-docker&quot;&gt;Single container Docker vs Multi-container Docker&lt;/h1&gt;
+
+&lt;p&gt;AWS Elastic Beanstalk supports both single container and multi container dockers. The difference being that: single container docker uses the first port in the &lt;code&gt;EXPOSE&lt;/code&gt; directive in docker file and maps it to port 80 and it will ingore any other ports. Multi container docker has provision to expose multiple ports out of a docker image and also map them to multiple load balancers (needs scripting). In this blog post, I’ll be talking only about &lt;em&gt;Single container&lt;/em&gt; docker.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-1---dockerfile--dockerrunawsjson&quot;&gt;Step 1 - Dockerfile &amp;amp; Dockerrun.aws.json&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM ubuntu:trusty
+RUN apt-get update
+RUN apt-get install -y nginx nginx-extras
+
+RUN rm -vf /etc/nginx/nginx.conf
+
+COPY nginx.conf /etc/nginx/
+RUN echo &quot;daemon off;&quot; &amp;gt;&amp;gt; /etc/nginx/nginx.conf
+
+EXPOSE 80
+
+CMD [&quot;service&quot;, &quot;nginx&quot; &quot;start&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above &lt;code&gt;Dockerfile&lt;/code&gt; is self-explanatory. It downloads the ubuntu trusty image, installs nginx and nginx-extras.
+Copies our customized &lt;code&gt;nginx.conf&lt;/code&gt; file and starts the nginx server.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-2---dockerrunawsjson-file&quot;&gt;Step 2 - Dockerrun.aws.json file&lt;/h1&gt;
+
+&lt;p&gt;AWS Elastic Beanstalk requires a Dockerrun.aws.json file for deployment of docker containers. There are two formats. One for single container and other for multi container docker environments.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &quot;AWSEBDockerrunVersion&quot;: &quot;1&quot;,
+  &quot;Volumes&quot;: []
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above code is the most basic file that you need for docker deployment. More detailed options are in AWS docmentation.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-3---done&quot;&gt;Step 3 - Done&lt;/h1&gt;
+
+&lt;p&gt;Thats all you need to deploy a ‘nginx application’ to AWS Elastic Beanstalk with all this goodness.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Most deployment scenarios will not be this simple and we would have to handle environment specific constraints such as server names.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-4---environment-specific-configuration&quot;&gt;Step 4 - Environment specific configuration&lt;/h1&gt;
+
+&lt;p&gt;Typically in a AWS Elastic Beanstalk environment environment specific configuration are handled in the &lt;code&gt;configurations&lt;/code&gt; tab and they would be available to the application.&lt;/p&gt;
+
+&lt;p&gt;Say for example, if we have test and production specific services and want two different nginx environments to handle them.&lt;/p&gt;
+
+&lt;p&gt;A typical Dockerfile configuraiton would become:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;FROM ubuntu:trusty
+
+RUN apt-get update
+RUN apt-get install -y nginx nginx-extras
+
+RUN rm -vf /etc/nginx/nginx.conf
+RUN rm -vf /etc/nginx/conf.d/upstream-services-${API_ENVIRONMENT}.conf
+
+COPY nginx.conf /etc/nginx/
+COPY upstream-services-${API_ENVIRONMENT}.conf /etc/nginx/conf.d/
+RUN echo &quot;daemon off;&quot; &amp;gt;&amp;gt; /etc/nginx/nginx.conf
+
+EXPOSE 8081
+
+CMD [&quot;/usr/bin/supervisord&quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;API_ENVIRONMENT&lt;/code&gt; is defined in Elastic Beanstalk. We will have &lt;code&gt;upsteram-services-test.conf&lt;/code&gt; and &lt;code&gt;upstream-services-production.conf&lt;/code&gt; in source to handle environment specific upstream servers while keeping the common rules in &lt;code&gt;nginx.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;e.g. upstream-services-test.conf&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;upstream test {
+  server invoice-test.example.com;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;upstream-services-production.conf&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;upstream test {
+  server invoice-prod.example.com;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this is being a pre-built docker image, those environment configurations will not be available to docker at &lt;em&gt;build&lt;/em&gt; time. Most probably you need those configuration settings at &lt;em&gt;build&lt;/em&gt; time. So, here’s a nice script that can read AWS Elastic Beanstalk environment configuration and write it do Dockerfile before building the docker image.&lt;/p&gt;
+
+&lt;p&gt;So, what we need is a way to edit dockerfile to pass environment variables &lt;em&gt;before&lt;/em&gt; it gets built into an container image.
+The below code snippet is an &lt;code&gt;.ebextensions&lt;/code&gt; config file for AWS Elastic Beanstalk that creates a script file and executes it during the docker build process. Most of the code for this script is from this stackoveflow answer: &lt;a href=&quot;http://stackoverflow.com/a/30359445&quot;&gt;http://stackoverflow.com/a/30359445&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;files:
+  &quot;/opt/elasticbeanstalk/hooks/appdeploy/pre/02export_env_vars_on_host.sh&quot;:
+    mode: &quot;000755&quot;
+    owner: root
+    group: root
+    content: |
+      #!/usr/bin/env bash
+      echo Defaults:root \!requiretty &amp;gt;&amp;gt; /etc/sudoers
+      for envvar in `jq &#39;.optionsettings | {&quot;aws:elasticbeanstalk:application:environment&quot;}[] | .[]&#39; /opt/elasticbeanstalk/deploy/configuration/containerconfiguration`
+      do
+        temp=&quot;${envvar//\&quot;/}&quot;;
+        temp=&quot;${temp/=/ }&quot;;
+        sed -i &quot;/FROM ubuntu:trusty/a ENV $temp&quot; /var/app/current/Dockerfile
+      done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above code snippet, reads environment specific variables from AWS Elastic Beanstalk and inserts them as &lt;code&gt;ENV&lt;/code&gt; directives to &lt;code&gt;Dockerfile&lt;/code&gt; before it gets built. This is important and as of writing &lt;code&gt;appdeploy/pre/02&lt;/code&gt; is a safe position as &lt;code&gt;01&lt;/code&gt; step is unzip of source code and &lt;code&gt;03&lt;/code&gt; step is the actual build process of docker container.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-5-running-multiple-processes&quot;&gt;Step 5: Running multiple processes&lt;/h1&gt;
+
+&lt;p&gt;Docker images should be treated as ‘processes’ and a single container should ideally run only on process.
+But almost in all cases, we would need more than one process to run, say for example - monitoring. In such cases, it would be better to use a process control system such as &lt;a href=&quot;http://supervisord.org/&quot;&gt;supervisord&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Aug 2015 04:32:00 +0530</pubDate>
+        <link>http://balaji-damodaran.com/programming/2015/08/09/elastic-beanstalk-docker.html</link>
+        <guid isPermaLink="true">http://balaji-damodaran.com/programming/2015/08/09/elastic-beanstalk-docker.html</guid>
+        
+        <category>docker</category>
+        
+        <category>nginx</category>
+        
+        <category>AWS</category>
+        
+        <category>Elastic Beanstalk</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Nginx CORS headers, proxy_pass and if module</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Setting up reverse proxy in nginx is straight forward using the proxy_pass directive.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;location /reversed-proxy {
+  proxy_pass http://example.com;
+}
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adding CORS headers on proxy_pass. More information about HTTP access control here: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS&lt;/a&gt;&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; location /reversed-proxy {
+   proxy_pass http://example.com;
+   add_header &#39;Access-Control-Allow-Origin&#39; &#39;*&#39;;
+   add_header &#39;Access-Control-Allow-Methods&#39; &#39;POST,GET,OPTIONS&#39;;
+ }
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The above example allows cross-domain requests from all websites. The right way to restrict them is to use regex match on the origin:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; location /reversed-proxy {
+   proxy_pass http://example.com;
+   if ($http_origin ~* &#39;https?://(www\.foobar\.com)&#39;) {
+     add_header &#39;Access-Control-Allow-Origin&#39; &quot;$http_origin&quot;;
+   }
+   add_header &#39;Access-Control-Allow-Methods&#39; &#39;POST,GET,OPTIONS&#39;;
+ }
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You may also want to ensure that preflight requests from browsers are handled properly. Please read the mozilla link above to find out what is a preflight request and in what condition is it sent to the server.&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; location /reversed-proxy {
+   proxy_pass http://example.com;
+   if ($http_origin ~* &#39;https?://(www\.foobar\.com)&#39;) {
+     add_header &#39;Access-Control-Allow-Origin&#39; &quot;$http_origin&quot;;
+   }
+
+   #preflight request
+   if ($request_method = &#39;OPTIONS&#39;) {
+     add_header &#39;Access-Control-Max-Age&#39; &#39;1728000&#39;;
+     add_header &#39;Content-Type&#39; &#39;text/plain charset=UTF-8&#39;;
+     add_header &#39;Content-Length&#39; &#39;0&#39;;
+     return 204;
+   }
+   add_header &#39;Access-Control-Allow-Methods&#39; &#39;POST,GET,OPTIONS&#39;;
+ }
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;The snippet 3) and 4) may look harmless to a person with imperative langauges background such as java, javascript, but it is completely broken!&lt;/p&gt;
+
+    &lt;p&gt;For e.g. In case of preflight request, the response headers will not have the &lt;code&gt;&#39;Access-control-allow-origin&#39;&lt;/code&gt; header. Because,
+ Nginx declaratively finds the right &lt;code&gt;if&lt;/code&gt; block to execute, in preflight request’s case it will be the second &lt;code&gt;if&lt;/code&gt; block and it executes only its contents imperatively.&lt;/p&gt;
+
+    &lt;p&gt;There is also another quirk, if its a GET request originating from foobar.com, nginx will match it with the first if block - declaratively and request to proxy_pass will be sent as &lt;code&gt;example.com/reversed-proxy/$1&lt;/code&gt; instead of &lt;code&gt;example.com/$1&lt;/code&gt;, because the if block acts as a nested location block and &lt;code&gt;/reversed&lt;/code&gt; is treated as url path.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Such errors have been documented extensively - &lt;a href=&quot;http://wiki.nginx.org/IfIsEvil&quot;&gt;http://wiki.nginx.org/IfIsEvil&lt;/a&gt; Hence, examples such as these &lt;a href=&quot;https://gist.github.com/alexjs/4165271&quot;&gt;https://gist.github.com/alexjs/4165271&lt;/a&gt; and &lt;a href=&quot;https://gist.github.com/michiel/1064640&quot;&gt;https://gist.github.com/michiel/1064640&lt;/a&gt; don’t seem to work in the context of proxy_pass because of the issue with if block.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If we want restrictive CORS accesss + reverse proxy + nginx then we cannot use &lt;code&gt;if&lt;/code&gt; block at all. The best alternative is to use &lt;code&gt;map&lt;/code&gt; module. More information here: &lt;a href=&quot;http://nginx.org/en/docs/http/ngx_http_map_module.html&quot;&gt;http://nginx.org/en/docs/http/ngx_http_map_module.html&lt;/a&gt;. It works like a pattern matching block and fits perfectly well in CORS scenario.&lt;/p&gt;
+
+    &lt;p&gt;The solution is given in stackoverflow: &lt;a href=&quot;https://serverfault.com/questions/674900/nginx-if-statement-inside-location-returns-404/674901#674901&quot;&gt;https://serverfault.com/questions/674900/nginx-if-statement-inside-location-returns-404/674901#674901&lt;/a&gt;, documenting in the blog for completeness. To solve the broken snippet above, we should do this:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; map $http_host $cors_header {
+   hostnames;
+   default &quot;&quot;;
+   .foobar.com &quot;$http_origin&quot;;
+ }
+
+ server {
+   location /reversed-proxy {
+     proxy_pass http://example.com;
+     add_header &#39;Access-Control-Allow-Origin&#39; $cors_header;
+     add_header &#39;Access-Control-Allow-Methods&#39; &#39;POST,GET,OPTIONS&#39;;
+
+     #preflight request
+     if ($request_method = &#39;OPTIONS&#39;) {
+       add_header &#39;Access-Control-Max-Age&#39; &#39;1728000&#39;;
+       add_header &#39;Content-Type&#39; &#39;text/plain charset=UTF-8&#39;;
+       add_header &#39;Content-Length&#39; &#39;0&#39;;
+
+       add_header &#39;Access-Control-Allow-Origin&#39; $cors_header;
+       add_header &#39;Access-Control-Allow-Methods&#39; &#39;POST,GET,OPTIONS&#39;;
+       return 204;
+     }
+   }
+ }
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;notice the two access control headers duplicated inside and outside the &lt;code&gt;if&lt;/code&gt; block, its not a mistake. Its because nginx finds the &lt;code&gt;if&lt;/code&gt; block to execute declaratively and skips the code outside the block.&lt;/p&gt;
+
+    &lt;p&gt;Thats all.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 30 Jul 2015 06:41:54 +0530</pubDate>
+        <link>http://balaji-damodaran.com/programming/2015/07/30/nginx-headers.html</link>
+        <guid isPermaLink="true">http://balaji-damodaran.com/programming/2015/07/30/nginx-headers.html</guid>
+        
+        <category>nginx</category>
+        
+        <category>cors</category>
+        
+        <category>reverse proxy</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Capistrano &amp; Java (or using capistrano to execute remote commands)</title>
+        <description>&lt;h2 id=&quot;assumption&quot;&gt;Assumption:&lt;/h2&gt;
+&lt;p&gt;Capistrano for java works if the deployment involves doing a git checkout on a server machine and building the package - a command similar to &lt;code&gt;mvn clean package&lt;/code&gt;. If there are proper deployment structures in place such as a CI server, or you do not/can not build your war file in the server machine - then it doesn’t really help.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites:&lt;/h2&gt;
+&lt;p&gt;You need to have ruby installed in local machine, install capistano gem and have run &lt;code&gt;cap install&lt;/code&gt; anywhere -it doesn’t really matter if the files are in the root directory of the project or in a separate directly. But it is better to have the capistrano files along with the source code. More install instructions in the capistrano website.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to&quot;&gt;How To:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://capistranorb.com&quot;&gt;Capistrano&lt;/a&gt; essentially executes commands remotely on a machine. So, we can ‘in principle’ use capistrano to do any arbitrary jobs that involves remote execution.&lt;/p&gt;
+
+&lt;p&gt;To achieve that we need to override any ruby specific tasks that gets executed by capistrano.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt; task gets executed on &lt;code&gt;deploy:finalize_update&lt;/code&gt;, so this needs to be overridden.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;deploy:restart&lt;/code&gt; task touches &lt;code&gt;tmp/restart.txt&lt;/code&gt; - doesn’t make sense in Java world.&lt;/li&gt;
+  &lt;li&gt;The whole &lt;code&gt;deploy:finalize_update&lt;/code&gt; step is not necessary.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hence, in our &lt;code&gt;Capfile&lt;/code&gt;, we override these tasks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;namespace :deploy do
+# override ruby specific tasks
+	task :finalize_update do; end
+	task :restart do; end
+  	end
+&lt;/code&gt;&lt;/pre&gt;
+
+  	namespace :bundle do
+  	#override bundle install task
+&lt;pre&gt;&lt;code&gt;	task :install do; end
+ 	end
+
+# create the task which will needs to be executed in remote machine. such as mvn deploy
+  	namespace :tomcat do
+	task :deploy do
+  	run &quot;cd #{deploy_to}/current; mvn clean tomcat7:redeploy&quot;
+	end
+  	end
+
+#invoke the task after the &#39;create_symlink&#39; stage in capistrano
+after &#39;deploy:create_symlink&#39;, &#39;tomcat:deploy&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;      	run &quot;cd #{deploy_to}/current; mvn clean tomcat7:redeploy&quot;&lt;/code&gt; is where interesting part is. You should already have this code &lt;code&gt;set :deploy_to /path/to/deploy&lt;/code&gt; in the cap file.
+Instead of this command, we can &lt;code&gt;run&lt;/code&gt; almost any command and have it executed in the remote machine, thus reusing capistrano for any other application.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Apr 2014 00:00:00 +0530</pubDate>
+        <link>http://balaji-damodaran.com/programming/2014/04/27/capistrano-for-deploying-java.html</link>
+        <guid isPermaLink="true">http://balaji-damodaran.com/programming/2014/04/27/capistrano-for-deploying-java.html</guid>
+        
+        <category>capistrano</category>
+        
+        <category>java</category>
+        
+        <category>deployment</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;p&gt;Customary hello world page. I’m typing this in vim on Mac OS X 10.9.
+Vim has been a revelation for me. My current vim setup is here &lt;a href=&quot;https://github.com/balaji/config_files/blob/master/vim/.vimrc&quot;&gt;https://github.com/balaji/config_files/blob/master/vim/.vimrc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I’m struggling without mouse to do anything related with multiple files like navigation, search and editing.&lt;/p&gt;
+
+&lt;p&gt;The vim configuration uses &lt;code&gt;Vundle&lt;/code&gt;. Loving the ease of installing a plugin which used to be for me a very tedious process. Even &lt;code&gt;pathogen&lt;/code&gt; is a good alternative. Just that &lt;code&gt;Vundle&lt;/code&gt; eliminates the last bit of manual effort compared to &lt;code&gt;pathogen&lt;/code&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Apr 2014 06:41:54 +0530</pubDate>
+        <link>http://balaji-damodaran.com/personal/2014/04/21/hello-world.html</link>
+        <guid isPermaLink="true">http://balaji-damodaran.com/personal/2014/04/21/hello-world.html</guid>
+        
+        <category>vim</category>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+  </channel>
+</rss>
