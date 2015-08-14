@@ -2,7 +2,7 @@
 layout: post
 title:  "AWS Elastic Beanstalk ,Docker and Nginx"
 date:   2015-08-08 23:02:00
-categories:
+categories: Programming
 ---
 
 AWS Elastic Beanstalk is the equivalent of 'rails'[1] in AWS world to deploy a project (almost in any stack) as quickly as possible without handling the low level details such as web servers, reverse proxies, load balancers, security groups, auto scaling groups, etc. So when you intend to host a cluster of nginx reverse proxies, AWS Elastic Beanstalk seems to a good choice, but unfortunately there aren't much literature out there on how to do this.

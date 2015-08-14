@@ -2,7 +2,7 @@
 layout: post
 title:  "Motorcycling as a hobby"
 date:   2015-08-10 23:02:00
-categories:
+categories: Personal
 ---
 
 TL:DR; Personal post. Nothing worth reading.

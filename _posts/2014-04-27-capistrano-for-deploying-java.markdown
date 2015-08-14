@@ -2,10 +2,10 @@
 layout: post
 title:  "Capistrano & Java (or using capistrano to execute remote commands)"
 date:   2014-04-27
-categories: 
+categories: Programming
 ---
 
-Assumption: 
+Assumption:
 -
  Capistrano for java works if the deployment involves doing a git checkout on a server machine and building the package - a command similar to `mvn clean package`. If there are proper deployment structures in place such as a CI server, or you do not/can not build your war file in the server machine - then it doesn't really help.
 
@@ -43,9 +43,9 @@ Hence, in our `Capfile`, we override these tasks.
       	run "cd #{deploy_to}/current; mvn clean tomcat7:redeploy"
     	end
   	end
-  	
+
 	#invoke the task after the 'create_symlink' stage in capistrano
 	after 'deploy:create_symlink', 'tomcat:deploy'
-	
+
 `      	run "cd #{deploy_to}/current; mvn clean tomcat7:redeploy"` is where interesting part is. You should already have this code `set :deploy_to /path/to/deploy` in the cap file.
 Instead of this command, we can `run` almost any command and have it executed in the remote machine, thus reusing capistrano for any other application.

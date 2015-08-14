@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2014-04-21 01:11:54
-categories: 
+categories: Personal
 ---
 
 Customary hello world page. I'm typing this in vim on Mac OS X 10.9.

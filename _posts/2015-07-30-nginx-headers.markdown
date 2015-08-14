@@ -2,7 +2,7 @@
 layout: post
 title:  "Nginx CORS headers, proxy_pass and if module"
 date:   2015-07-30 01:11:54
-categories: 
+categories: Programming
 ---
 
 1. Setting up reverse proxy in nginx is straight forward using the proxy_pass directive.
@@ -37,8 +37,8 @@ categories:
           if ($http_origin ~* 'https?://(www\.foobar\.com)') {
             add_header 'Access-Control-Allow-Origin' "$http_origin";
           }
-          
-          #preflight request 
+
+          #preflight request
           if ($request_method = 'OPTIONS') {
             add_header 'Access-Control-Max-Age' '1728000';
             add_header 'Content-Type' 'text/plain charset=UTF-8';
@@ -49,11 +49,11 @@ categories:
         }
 
     The snippet 3) and 4) may look harmless to a person with imperative langauges background such as java, javascript, but it is completely broken!
-    
+
     For e.g. In case of preflight request, the response headers will not have the `'Access-control-allow-origin'` header. Because,
     Nginx declaratively finds the right `if` block to execute, in preflight request's case it will be the second `if` block and it executes only its contents imperatively.
 
-    There is also another quirk, if its a GET request originating from foobar.com, nginx will match it with the first if block - declaratively and request to proxy_pass will be sent as `example.com/reversed-proxy/$1` instead of `example.com/$1`, because the if block acts as a nested location block and `/reversed` is treated as url path. 
+    There is also another quirk, if its a GET request originating from foobar.com, nginx will match it with the first if block - declaratively and request to proxy_pass will be sent as `example.com/reversed-proxy/$1` instead of `example.com/$1`, because the if block acts as a nested location block and `/reversed` is treated as url path.
 
 5. Such errors have been documented extensively - [http://wiki.nginx.org/IfIsEvil](http://wiki.nginx.org/IfIsEvil) Hence, examples such as these [https://gist.github.com/alexjs/4165271](https://gist.github.com/alexjs/4165271) and [https://gist.github.com/michiel/1064640](https://gist.github.com/michiel/1064640) don't seem to work in the context of proxy_pass because of the issue with if block.
 
@@ -73,7 +73,7 @@ categories:
             add_header 'Access-Control-Allow-Origin' $cors_header;
             add_header 'Access-Control-Allow-Methods' 'POST,GET,OPTIONS';
 
-            #preflight request 
+            #preflight request
             if ($request_method = 'OPTIONS') {
               add_header 'Access-Control-Max-Age' '1728000';
               add_header 'Content-Type' 'text/plain charset=UTF-8';
