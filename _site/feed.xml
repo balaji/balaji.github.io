@@ -5,8 +5,8 @@
     <description>balaji damodaran&#39;s blog about programming and life</description>
     <link>http://balaji-damodaran.com/</link>
     <atom:link href="http://balaji-damodaran.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Aug 2015 06:39:58 +0530</pubDate>
-    <lastBuildDate>Sat, 15 Aug 2015 06:39:58 +0530</lastBuildDate>
+    <pubDate>Sat, 15 Aug 2015 20:33:19 +0530</pubDate>
+    <lastBuildDate>Sat, 15 Aug 2015 20:33:19 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -54,7 +54,7 @@
       </item>
     
       <item>
-        <title>AWS Elastic Beanstalk ,Docker and Nginx</title>
+        <title>AWS Elastic Beanstalk, Docker and Nginx</title>
         <description>&lt;p&gt;AWS Elastic Beanstalk is the equivalent of ‘rails’[1] in AWS world to deploy a project (almost in any stack) as quickly as possible without handling the low level details such as web servers, reverse proxies, load balancers, security groups, auto scaling groups, etc. So when you intend to host a cluster of nginx reverse proxies, AWS Elastic Beanstalk seems to a good choice, but unfortunately there aren’t much literature out there on how to do this.&lt;/p&gt;
 
 &lt;h2 id=&quot;docker&quot;&gt;Docker&lt;/h2&gt;
