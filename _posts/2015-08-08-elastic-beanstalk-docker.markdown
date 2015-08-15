@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS Elastic Beanstalk ,Docker and Nginx"
+title:  "AWS Elastic Beanstalk, Docker and Nginx"
 date:   2015-08-08 23:02:00
 categories: Programming
 tags: ['docker', 'nginx', 'AWS', 'Elastic Beanstalk']
