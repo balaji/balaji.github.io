@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Capistrano & Java (or using capistrano to execute remote commands)</title>
-  <meta name="description" content="Assumption:Capistrano for java works if the deployment involves doing a git checkout on a server machine and building the package - a command similar to mvn ...">
+  <title>Trip to Tirumala Hills</title>
+  <meta name="description" content="This independence day weekend Arun and I planned to go to Tirumala hills, which is the home of arguably one of the richest temples in the world, the temple o...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://balaji-damodaran.com/programming/2014/04/27/capistrano-for-deploying-java.html">
+  <link rel="canonical" href="http://balaji-damodaran.com/personal/2015/08/17/tirumala-trip.html">
   <link rel="alternate" type="application/rss+xml" title="Properties of a cat" href="http://balaji-damodaran.com/feed.xml" />
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 </head>
@@ -114,56 +114,24 @@
                 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Capistrano & Java (or using capistrano to execute remote commands)</h1>
-    <p class="post-meta">Apr 27, 2014</p>
+    <h1 class="post-title">Trip to Tirumala Hills</h1>
+    <p class="post-meta">Aug 17, 2015</p>
   </header>
 
   <article class="post-content">
-    <h2 id="assumption">Assumption:</h2>
-<p>Capistrano for java works if the deployment involves doing a git checkout on a server machine and building the package - a command similar to <code>mvn clean package</code>. If there are proper deployment structures in place such as a CI server, or you do not/can not build your war file in the server machine - then it doesn’t really help.</p>
+    <p>This independence day weekend Arun and I planned to go to Tirumala hills, which is the home of arguably one of the richest temples in the world, the temple of - Sri Venkateswara Swamy or Lord Balaji.</p>
 
-<h2 id="prerequisites">Prerequisites:</h2>
-<p>You need to have ruby installed in local machine, install capistano gem and have run <code>cap install</code> anywhere -it doesn’t really matter if the files are in the root directory of the project or in a separate directly. But it is better to have the capistrano files along with the source code. More install instructions in the capistrano website.</p>
+<p>We left by 8 am from Sri Motel highway after breakfast. The climate was hot and dry. Tirumazhisai - Tiruvallur road was not smooth at all. With patched roads that really were just upside down pot holes and we had to cross the Tiruvallur town which didn’t have roads at all.</p>
 
-<h2 id="how-to">How To:</h2>
+<p>Once we reached the national highway (NH 205), the roads were pretty good. We passed through Tiruttani and Nagari without any event and by mistake went inside Tirupathi town. Arun’s number plate was missing a screw, we stopped for him to search for a hardware shop, the sun was scorching down. Tirupathi town was big with a lot of multi storied apartments. Majority of the cars had TN number plates and quite a good number of them with MH number plates as well. After asking for directions within the city’s police and auto dirvers (this required us to negotiate some crazy traffic), we managed to reach the toll that takes you to the top of the hill which is around 20km from there.</p>
 
-<p><a href="http://capistranorb.com">Capistrano</a> essentially executes commands remotely on a machine. So, we can ‘in principle’ use capistrano to do any arbitrary jobs that involves remote execution.</p>
+<p>There was security check and there are certain restrictions on what you can and cannot carry to the top, for e.g. liquor, camera etc. are banned. It was independence day as well, so I was expecting some strict checks. The security guard was amused by my armored jacket and he wanted to know why it was too hard - may be he thought I was carrying explosives or something fishy. I had to remove by jacket and show him that it was just a plastic material. The toll was 2 Rupees for bikes - thank Lord Balaji that I retained the 2 rupees from the breakfast bill and did not give it away with the tip, otherwise I had only 100 and 500 rupee notes.</p>
 
-<p>To achieve that we need to override any ruby specific tasks that gets executed by capistrano.</p>
+<p>The best thing about riding to Tirumala is that - the road uphill and downhill are one-ways. They are two different routes. So it is very safe to drive uphill and overtake slow moving vehicles. I didn’t drive that fast anyways, but I thoroughly enjoyed the ride. One blogger said that this is the Nurburgring of India, but that will be an exaggeration. The road downhill was much more steeper with a lot more U bends and a lot more traffic - I didn’t really enjoy driving down.</p>
 
-<ol>
-  <li><code>bundle install</code> task gets executed on <code>deploy:finalize_update</code>, so this needs to be overridden.</li>
-  <li><code>deploy:restart</code> task touches <code>tmp/restart.txt</code> - doesn’t make sense in Java world.</li>
-  <li>The whole <code>deploy:finalize_update</code> step is not necessary.</li>
-</ol>
+<p>In Tirumala, we walked around the devastham’s cottages - they are very good for the price they offer, but always booked full. People come with all sorts of recommendation letters - from government officials, politicans, TTD employees, etc. just to get into one of these cottages. We though of having lunch there itself and managed to get into one of the worst ‘canteens’ - this was a bad decision. We asked for poori, after 15 minutes or so, the waiter says that poori is old and not good to eat. We should’ve left the hotel by then, but I made the mistake of asking for dosa, which we did get, but lets just say that the food ingestion was a regrettable affair.</p>
 
-<p>Hence, in our <code>Capfile</code>, we override these tasks.</p>
-
-<pre><code>namespace :deploy do
-# override ruby specific tasks
-	task :finalize_update do; end
-	task :restart do; end
-  	end
-</code></pre>
-
-  	namespace :bundle do
-  	#override bundle install task
-<pre><code>	task :install do; end
- 	end
-
-# create the task which will needs to be executed in remote machine. such as mvn deploy
-  	namespace :tomcat do
-	task :deploy do
-  	run "cd #{deploy_to}/current; mvn clean tomcat7:redeploy"
-	end
-  	end
-
-#invoke the task after the 'create_symlink' stage in capistrano
-after 'deploy:create_symlink', 'tomcat:deploy'
-</code></pre>
-
-<p><code>      	run "cd #{deploy_to}/current; mvn clean tomcat7:redeploy"</code> is where interesting part is. You should already have this code <code>set :deploy_to /path/to/deploy</code> in the cap file.
-Instead of this command, we can <code>run</code> almost any command and have it executed in the remote machine, thus reusing capistrano for any other application.</p>
+<p>We left Tirumala by 12.30-ish and reached home by 4 pm. Stopping one or twice on the way for hydrating ourselves. Overall it was a good experience.</p>
 
   </article>
 
