@@ -70,4 +70,4 @@ tags: ['motorcycling', 'tenkasi', 'thenmala', 'madurai']
 
 * Didn't see the windmills as I was riding at night. But I can't have both as stated in the previous point.
 
-* Didn't buy Srivilliputhur paalkova. Dad used to buy this when he used to come from work on weekends to our home in Virudhunagar. It used to be a single block of quarter kg sweet. Me and my brother will cut it in the middle and finish it in one sitting!
+* Didn't buy Srivilliputhur paalkova. It is one of the lasting images of my childhood. Dad used to buy this when he used to come from work on weekends to our home in Virudhunagar. It used to be a single block of quarter kg sweet. Me and my brother will cut it in the middle and finish it in one sitting!
