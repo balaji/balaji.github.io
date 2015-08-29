@@ -28,26 +28,50 @@ tags: ['motorcycling', 'tenkasi', 'thenmala', 'madurai']
 * Idiyappam with paya and kari dosai is a delight.
 * All roads lead to Madurai.
 * Since all roads lead to Madurai, it is easy to take the wrong road.
+
+![Idiyappam with aattukkal paya in Simmakkal Konar kadai, Madurai.](/images/madurai-konar-kadai.jpg)
+
+{: .center}
+##### Idiyappam with aattukkal paya in Simmakkal Konar kadai, Madurai.
+
 * Tenkasi road is so so. Single lane, difficult to overtake and there are enough slow moving vehicles.
 * Srivilliputhur and Rajapalayam are quite small towns.
 * It is not a good idea for two 6ft tall persons to ride on the same bike.
 * When you want to buy something on the road, buy.
 * Small villages with its vast fields are very calming.
 * Plan ahead, buy a gift for the wedding.
+
+![Senthil - Abinaya wedding.](/images/tenkasi-wedding.jpg)
+
+{: .center}
+##### Senthil - Abinaya wedding, Tenkasi. Any guesses why our hands are tied behind the back? (no gifts)
+
 * Sengottai - Thenmala road to Kerala is enchanting, do it again.
 * Kerala twisties are good fun.
 * 90% of cars I saw in Kerala are Maruti. 90% of those Maruti are Alto variants.
 * 90% of the bikes I saw in Kerala are Yamaha FZ variants.
 * In Kerala they play kabaddi-like-football thing on the road, its like waiting for crackers to burst in Deepavali, you need to stop and wait for the person to kick the ball and then go.
+
+![Somewhere after Thenmala (South mountain, not honey mountain).](/images/somewhere-after-thenmala.jpg)
+
+{: .center}
+##### Somewhere after Thenmala (means Southern mountain, not honey mountain).
+
 * It is natural in Kerala to block passengers on road for funds collection.
 * People protest on the road all of the time, even on the eve of Onam.
-* Kerala twisties are good fun, but once the night sets in the roads are a bit scary.
+* Kerala twisties are good fun, but once the night sets in, the roads can get a bit scary.
 * Google maps knows the shortest path, even if it is a deserted residential battered narrow haunting road.
 * If there is a google maps fan club, count me in.
 * If a caption in a hotel says 'never tip our waiters, its insulting their service', expect the waiter to stand next to you until you tip.
 * Night ride is fun - far less traffic and no scorching sun - provided you have enough mojo to last for the ride.
 * Fast moving cars on night rides mostly come in pairs - this was interesting.
-* There are windmills in Tirunelveli and Thootukudi for a good reason. If you are in two wheeler, expect one hell of a ride.
+
+![Wife asked me to send the photo of the couple.](/images/couple.jpg)
+
+{: .center}
+##### Wife asked me to send the photo of the couple.
+
+* There are windmills in Tirunelveli and Thootukudi for a reason, it gets extremely windy as they are situated on the foothills of the western ghats. If you are in two wheeler, expect one hell of a ride.
 * Since all roads lead to Madurai, it is easy to take the wrong road - more so at night and screw up your plans.
 * Never ask for directions to a drunken old man at 1 AM.
 * Dindugul - Trichy highway is as good as it can be, but expect shockingly battered roads as you reach Trichy.
@@ -62,12 +86,12 @@ tags: ['motorcycling', 'tenkasi', 'thenmala', 'madurai']
 #### Regrets:
 
 * Didn't stop in Ponmudi/Colachel/Kanyakumari.
-  * Because I had to be in Chennai on Saturday and that means I need to have enough rest, staying in Ponmudi or Kanyakumari for Thursday night would mean that I need to ride on Friday daylight and reach Chennai by night and immediately travel the next day.
+  * Because I had to be in Chennai on Saturday and that meant that I needed enough rest, staying in Ponmudi or Kanyakumari on Thursday night would've left me riding on Friday daytime to reach Chennai by night and immediately travel the next day.
 
-  * I was slightly uneasy to spend money in Ponmudi, its a hill station and stay would've been costly.
+  * I was slightly uneasy to spend money in Ponmudi, its a hill station and a stay would've been costly.
 
   * I really wanted to do a night ride.
 
-* Didn't see the windmills as I was riding at night. But I can't have both as stated in the previous point.
+* Didn't experience the presence of gigantic windmills from Nagercoil to Tirunelveli as I was doing a night ride.
 
-* Didn't buy Srivilliputhur paalkova. It is one of the lasting images of my childhood. Dad used to buy this when he used to come from work on weekends to our home in Virudhunagar. It used to be a single block of quarter kg sweet. Me and my brother will cut it in the middle and finish it in one sitting!
+* Didn't buy Srivilliputhur paalkova. It is one of the lasting images of my childhood. Dad would buy this when he used to come from work on weekends to our home in Virudhunagar. It used to be a single block of quarter kg sweet. Me and my brother will cut it in the middle and finish it in one sitting! Fun times.
