@@ -5,7 +5,7 @@ date:   2015-08-28 21:11:54
 categories: Personal
 tags: ['motorcycling', 'tenkasi', 'thenmala', 'madurai']
 ---
-![Route map](/images/tn-ride.png)
+![Route map](/images/tn-ride.jpg)
 
 {: .center}
 ##### Route map

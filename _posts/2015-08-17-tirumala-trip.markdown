@@ -30,7 +30,7 @@ Once we reached the national highway (NH 205), the roads were pretty good. We pa
 There was security check and there are certain restrictions on what you can and cannot carry to the top, for e.g. liquor, camera etc. are banned. It was independence day as well, so I was expecting some strict checks. The security guard was amused by my armored jacket and he wanted to know why it was too hard - may be he thought I was carrying explosives or something fishy. I had to remove by jacket and show him that it was just a plastic material. The toll was 2 Rupees for bikes - thank Lord Balaji that I retained the 2 rupees from the breakfast bill and did not give it away with the tip, otherwise I had only 100 and 500 rupee notes.
 
 
-![Google maps route](/images/google-maps-route.png)
+![Google maps route](/images/google-maps-route.jpg)
 
 {: .center}
 ##### Google maps route
