@@ -17,7 +17,6 @@ baseurl: ""
 url: "http://balaji-damodaran.com"
 twitter_username: openbala
 github_username: balaji
-  
 # Build settings
 markdown: kramdown
 paginate: 7
