@@ -18,14 +18,14 @@ I had a coffee and some sandwiches to start with so I decided to skip 'regular' 
 Due to the infamous vibrations (I'm never going to buy another Royal Enfield product again until I hear "there are No vibrations!" in the review), the sidebox for the air filter just 'opened' with the lock on (A bit more on this: I always find the sidebox slammed shut so tight to the point that you can't even open it, now I know the reason) because the lock unscrewed itself due to vibrations. I heard noises and I had to slam shut the sidebox after screwing on the lock nut.
 
 
-![On the way to Jamunamarathur](/images/to-jamunamarathur.jpg)
+![On the way to Jamunamarathur](/images/to-jamunamarathur.JPG)
 
 {: .center}
 ##### On the way to Jamunamarathur
 
 I stopped on the second toll, bought some cigarettes and continued on - Arcot, Arani, Polur, Jamunamarathur. Then I took a right en route to Amirthi. To road to Jamunamarathur is fun, its a hill road with some twisties and sceneries, I stopped for some pictures, but the real deal was the Amirthi road - it starts with a lot of S bends, one such was a bit steep and I locked my gears and fell at 5 kmph, since it was almost a stationary fall no damage was done. Once the S bends were over, the road climbs down and I had a spectacular view of the hills but a bit scary as well.
 
-![On the way to Amirthi](/images/to-amirthi.jpg)
+![On the way to Amirthi](/images/to-amirthi.JPG)
 
 {: .center}
 ##### On the way to Amirthi
