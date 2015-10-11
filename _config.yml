@@ -24,3 +24,4 @@ paginate: 7
 paginate_path: "/archives/page/:num"
 tag_page_layout: tag_page
 tag_page_dir: tag
+disqusid: ba60d4df6c5a252f7034bbf0966ab4e4fd8ebfae3ba0f0a8c98

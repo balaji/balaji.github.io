@@ -27,6 +27,7 @@
         <div class="page-content">
             <div class="wrapper">
                 {{ content }}
+                {% include comments.html %}
                 </div>
         <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}

@@ -4,6 +4,7 @@ title:  "Javadhu Hills - II"
 date:   2015-10-11 01:11:54
 categories: Personal
 tags: ['motorcycling', 'Javadhu hills']
+comments: true
 ---
 
 So, its been a long time since I went for a ride (more than 50 days) and I was busy with office work, but finally there was a window of opportunity to sieze and did I sieze or not!
