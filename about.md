@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Lambda Don Raja is a (partial) anagram of `Balaji Damodaran`. I specifically like this one because it contains two of my favourite things:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+1. Lambda (λ) - the 11th Greek letter. For a software engineer, `lambda` refers to lambda functions, which derives its name from [Lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus) - A formal system for expressing computation. It is the foundation for functional programming.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+2. Don Raja - The song from Apache Indian's album [No Reservations](https://open.spotify.com/album/6mVgdxshOzKoulrupVh9JA). Apache Indian was my first rock star as a kid growing up in the outskrits of Madurai, India.
 
-
-[jekyll-organization]: https://github.com/jekyll
+The anagram misses `I` and `N`, the last letters of my first and last name, if only Superstar [Rajinikanth](https://en.wikipedia.org/wiki/Rajinikanth) was called Rajani and not Rajini ;)
