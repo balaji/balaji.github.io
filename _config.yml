@@ -16,7 +16,7 @@
 title: உலகப்புகழ் பெற்ற வலைப்பதிவு
 author: Balaji
 description: >- # this means to ignore newlines until "baseurl:"
-  I Am. I Am. I Am.
+  ஆறடி உயரம். பருத்த உடல். கருத்த மாநிறம்.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://balaji.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  balaji
@@ -28,6 +28,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
