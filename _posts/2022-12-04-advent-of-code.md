@@ -2,16 +2,21 @@
 layout: post
 title: "Advent of Code"
 tags: code
+date:   2022-12-04 23:20:00 +0100
 ---
 
-[Advent of Code](https://www.adventofcode.com){:target="_blank"} is a code competition website that is publishes new puzzles on the first 25 days of December. One on each day. Each puzzle has two parts. The puzzles start easy and becomes hard progressively. I was introduced to this through my ex-employer (Spotify). I have solved problems in Java, Ruby, Erlang and Scala. I do not have all my problems in github, but I salvaged some of it here: [https://github.com/balaji/advent_of_code](https://github.com/balaji/advent_of_code){:target="_blank"}.
+[Advent of Code](https://www.adventofcode.com){:target="_blank"} is a code competition website that is publishes new puzzles on the first 25 days of December. One on each day. Each puzzle has two parts. The puzzles start easy and becomes hard progressively. I was introduced to this through my ex-employer (Spotify). I have solved problems in Java, Ruby, Erlang and Scala. I do not have all my problems in github, but I salvaged some: [https://github.com/balaji/advent_of_code](https://github.com/balaji/advent_of_code){:target="_blank"}.
 
-As of writing, I haven't yet managed to solve all 25 puzzles in a year because I traveled to India every single year (except in 2021) during the 4th week of December and I will miss it in the aftermath. In 2021, it was COVID, I was mentally checked out and I was also preparing for interviews for a potential job change (which is an irony because such code competitions are good preparing ground for interviews).
+As of writing, I haven't yet managed to solve all 25 puzzles in a year because I travel to India every single year during the 4th week of December and I will miss it in the aftermath. In 2021, things were a bit hectic in with my current employer (Stripe) and I couldn't focus on solving puzzles every day.
 
 ## Stats Viewer
-Here is a little fun half a day project. As part of this blog post, I wanted to show my progress on AoC through the years. I used this library: [https://github.com/wimglenn/advent-of-code-data](https://github.com/wimglenn/advent-of-code-data){:target="_blank"}, to set up a AWS Lambda function that fetches only my AoC stats. The code for the AWS Lambda is here: [https://github.com/balaji/adventOfCodeLambda](https://github.com/balaji/adventOfCodeLambda){:target="_blank"}. The charts are done using Chart.js.
+Here is a little fun half a day project. As part of this blog post I wanted to show my progress on AoC through the years. 
 
-My AoC stats are fetched in real-time to produce this graph. Hopefully someday all the bars will be at 25 :)
+- I used this library: [https://github.com/wimglenn/advent-of-code-data](https://github.com/wimglenn/advent-of-code-data){:target="_blank"} to collect the data. 
+- I set up a AWS Lambda function on python (because the AoC library was on python) to return my AoC stats with CORS support. Code: [https://github.com/balaji/adventOfCodeLambda](https://github.com/balaji/adventOfCodeLambda){:target="_blank"}.
+- The chart is done using Chart.js: [code](https://raw.githubusercontent.com/balaji/balaji.github.io/master/_posts/2022-12-04-advent-of-code.md){:target="_blank"}
+
+The stats are fetched in real-time to produce this graph. Hopefully someday all the bars will be at 25 :)
 
 <div><canvas id="myChart"></canvas></div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
