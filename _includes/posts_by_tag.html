@@ -1,0 +1,19 @@
+{% for tag in site.tags %}
+  {%- if tag[0] == include.tag -%}
+  <ul>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {% for post in tag[1] %}
+    <li>        
+        <h4>
+          <a href="{{ post.url | relative_url }}">
+            <span class="post-meta">{{ post.date | date: date_format }}</span> {{ post.title | escape }}
+          </a>
+        </h4>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+    {% endfor %}
+  </ul>
+  {%- endif -%}
+{% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spotify Wrapped 2022"
-tags: spotify music
+tags: spotify music personal
 ---
 
 I look forward to December for 2 specific things.
