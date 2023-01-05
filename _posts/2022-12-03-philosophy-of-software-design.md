@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Thoughts on A Philosophy of Software Design"
-tags: book "software design"
+title:  "Book Review: A Philosophy of Software Design"
+tags: software-design book-review book review software
 ---
 ![A Philosophy of Software Design](/assets/img/7.jpg)
 <p align = "center"><i>A Philosophy of Software Design</i></p>
