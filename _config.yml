@@ -12,6 +12,7 @@ google_analytics: G-Z5R0VK62EK
 
 # Build settings
 markdown: kramdown
+usemathjax: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
