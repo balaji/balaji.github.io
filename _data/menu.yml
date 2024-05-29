@@ -1,0 +1,17 @@
+entries:
+  - title: posts
+    post_list:
+      limit: 15
+      show_more: true
+      show_more_text: posts...
+      show_more_url: archive.html
+
+  - title: filter by
+    entries:
+      - title: personal
+        url: personal-archive.html
+      - title: software related
+        url: software-archive.html        
+
+  - title: rss
+    url: feed.xml

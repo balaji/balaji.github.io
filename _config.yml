@@ -1,4 +1,4 @@
-title: Personal Blog
+title: Balaji - Personal Blog
 author:
   name: Balaji Damodaran
   email: damodaran.balaji@gmail.com
@@ -10,7 +10,6 @@ url: "https://balaji.dev"
 github_username:  balaji
 google_analytics: G-Z5R0VK62EK
 
-# Build settings
 markdown: kramdown
 usemathjax: true
 plugins:
@@ -19,12 +18,13 @@ plugins:
   - jekyll-paginate
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
-minima:
-  social_links: []
-  skin: solarized-light
-
-paginate: 7
+remote_theme: riggraz/no-style-please
+theme_config:
+  appearance: "auto"
+  back_home_text: "back"
+  date_format: "%Y-%m-%d"
+  show_description: false # show blog description in home page
+paginate: 5
 
 defaults:
   - scope:

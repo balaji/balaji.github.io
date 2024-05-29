@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advent of Code"
-tags: code software projects
+category: software
 date:   2022-12-04 23:20:00 +0100
 ---
 
