@@ -1,33 +1,49 @@
-title: Balaji - Personal Blog
-author:
-  name: Balaji Damodaran
-  email: damodaran.balaji@gmail.com
-description: >-
-  The life and times of me in longform text.<br/>
-  ஆறடி உயரம். பருத்த உடல். கருத்த மாநிறம்.
+title: ADHD, bipolar and poor decisions walks into a bar...
+email: damodaran.balaji@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Incoherent thoughts of an ordinary person. Read <a href="/namesake">this</a> first, maybe.
 baseurl: ""
 url: "https://balaji.dev"
-github_username:  balaji
+repository: balaji/balaji.github.io
+instagram: balajid.v4
+github: balaji
+
 google_analytics: G-Z5R0VK62EK
 
+author: Balaji Damodaran
+author_bio: >-
+  I make my living by writing software for large companies. As the title of this site suggests,
+  I am an Introvert - a serious and boring one. Combine that with symptoms of ADHD and bipolar disorder,
+  you get... well me. I lived <a href="/42-year-career">at least 50%</a> of my life, so it wasn't all bad. I raise two daughters and a cat in the beautiful
+  city of Stockholm, Sweden.
+author_pic: https://avatars.githubusercontent.com/u/137302?v=4
+
+paginate: 4
+paginate_path: "/:num/"
+
 markdown: kramdown
-usemathjax: true
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Build settings
+theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-remote-theme
+permalink: /:title
 
-remote_theme: riggraz/no-style-please
-theme_config:
-  appearance: "auto"
-  back_home_text: "back"
-  date_format: "%Y-%m-%d"
-  show_description: false # show blog description in home page
-paginate: 5
+theme_switcher: false
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+collections:
+  pages:
+    output: true
+    permalink: /:title
+
+# Exclude from processing.
+exclude:
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
