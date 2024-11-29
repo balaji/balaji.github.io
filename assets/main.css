@@ -79,3 +79,51 @@ a.skip-main:active {
     font-size: 1.2em;
     z-index: 999;
 }
+
+:root {
+    --light-border-color: #dee2e6;
+    --code-color: #008080;
+    --main-color: #008cba;
+}
+
+
+.callout {
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.15rem;
+    border: 1px solid var(--light-border-color);
+    border-left-width: .5rem;
+    border-radius: .25rem;
+}
+
+.callout-primary {
+    border-left-color: var(--main-color);
+}
+
+.callout-secondary {
+    border-left-color: #185977;
+}
+
+.callout-success {
+    border-left-color: #45c945;
+}
+
+.callout-danger {
+    border-left-color: #d9534f;
+}
+
+.callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.callout-info {
+    border-left-color: #5bc0de;
+}
+
+.callout-light {
+    border-left-color: #f2f3f5;
+}
+
+.callout-dark {
+    border-left-color: #bcbebf;
+}

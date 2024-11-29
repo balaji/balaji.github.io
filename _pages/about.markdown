@@ -3,6 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+<div class="callout callout-warning" markdown="span">
+_This blog is not about ADHD, bipolar or other psychiatric conditions._
+</div>
+
 I am Balaji Damodaran. There are <a href="https://www.linkedin.com/pub/dir/Balaji" target="_blank">many</a> of us. This is my blog.
 
 I was the "shy type", "the quite one" in school. I was the "he doesn't speak much, a very calm and obedient person" in my extended family. I was the "Bodhai" (trans: _junkie_) in college. I was the "cool one", "non-confrontational", "doesn't get flustered" at work. I convinced myself that I was an "introvert".
