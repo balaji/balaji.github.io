@@ -12,6 +12,9 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.0)
     forwardable-extended (2.6.0)
+    google-protobuf (4.29.0-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.29.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
@@ -77,6 +80,7 @@ GEM
     webrick (1.9.0)
 
 PLATFORMS
+  arm64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
