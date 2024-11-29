@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Categories
+title: Blog Tags
 permalink: /tags/
 content-type: eg
 ---
