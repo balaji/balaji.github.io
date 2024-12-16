@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-target-blank
 permalink: /:title
 
 theme_switcher: false

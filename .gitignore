@@ -291,3 +291,6 @@ error_log
 
 *.bak
 *.backup
+
+\#*\#
+.\#*
