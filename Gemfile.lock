@@ -10,9 +10,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x64-mingw-ucrt)
-    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.0-arm64-darwin)
       bigdecimal
@@ -96,7 +94,6 @@ GEM
     tzinfo-data (1.2024.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    wdm (0.2.0)
     webrick (1.9.0)
 
 PLATFORMS
@@ -112,7 +109,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-target-blank
   tzinfo-data
-  wdm
 
 BUNDLED WITH
    2.3.27
