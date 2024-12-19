@@ -2,6 +2,10 @@
 layout: post
 title:  "Book Review: A Philosophy of Software Design"
 category: software
+tags:
+  - blog
+gist: >-
+  <a href="/philosophy-of-software-design">Book Review: A Philosophy of Software Design</a>
 ---
 ![A Philosophy of Software Design](/assets/img/7.jpg)
 <p align = "center"><i>A Philosophy of Software Design</i></p>

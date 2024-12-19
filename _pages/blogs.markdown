@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog Tags
-permalink: /tags/
+title: Blog Posts
+permalink: /blogs/
 content-type: eg
 ---
 
@@ -18,16 +18,13 @@ content-type: eg
 </style>
 
 <div>
-    {% for tag in site.categories %}
-    <div>
-        <h3 id="{{ tag | first }}">{{ tag | first | capitalize }}</h3>
+    {% for category in site.categories %}
+        <div id="{{ category | first }}">Category: {{ category | first | capitalize }}</div>
         <ul>
-        {% for post in tag.last %}
+        {% for post in category.last %}
             <li><a href="{{post.url}}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
-    </div>
     {% endfor %}
-    <br/>
     <br/>
 </div>

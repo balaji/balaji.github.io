@@ -15,7 +15,7 @@ author_bio: >-
   city of Stockholm, Sweden.
 author_pic: https://avatars.githubusercontent.com/u/137302?v=4
 
-paginate: 4
+paginate: 20
 paginate_path: "/:num/"
 
 markdown: kramdown
@@ -31,6 +31,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-target-blank
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: archive
+  permalinks:
+    tag: '/tags/:name/'
 permalink: /:title
 
 theme_switcher: false

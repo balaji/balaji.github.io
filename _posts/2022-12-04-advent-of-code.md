@@ -3,6 +3,10 @@ layout: post
 title: "Advent of Code"
 category: software
 date:   2022-12-04 23:20:00 +0100
+tags:
+  - blog
+gist: >-
+  <a href="/advent-of-code">Advent of Code</a>
 ---
 
 [Advent of Code](https://www.adventofcode.com){:target="_blank"} is a code competition website that is publishes new puzzles on the first 25 days of December. One on each day. Each puzzle has two parts. The puzzles start easy and becomes hard progressively. I was introduced to this through my ex-employer (Spotify). I have solved problems in Java, Ruby, Erlang and Scala. I do not have all my problems in github, but I salvaged some: [https://github.com/balaji/advent_of_code](https://github.com/balaji/advent_of_code){:target="_blank"}.

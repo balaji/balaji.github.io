@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interesting Media
+title: Bookmarks
 permalink: /bookmarks/
 description: 
 ---

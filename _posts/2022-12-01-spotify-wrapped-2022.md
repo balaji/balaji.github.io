@@ -2,6 +2,10 @@
 layout: post
 title:  "Spotify Wrapped 2022"
 category: personal
+tags:
+  - blog
+gist: >-
+  <a href="/spotify-wrapped-2022">Spotify Wrapped 2022</a>
 ---
 
 I look forward to December for 2 specific things.

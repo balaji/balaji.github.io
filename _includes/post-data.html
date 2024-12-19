@@ -23,7 +23,7 @@
         {% endfor %}
         {%- endif -%}
         &#8239;|&#8239; 
-        {%- for tag in page.categories -%}
-            <a class="p-category" href="/tags/#{{ tag }}">#{{ tag }}</a> &#8239; 
+        {%- for category in page.categories -%}
+            <a class="p-category" href="/blogs#{{ category }}">#{{ category }}</a> &#8239; 
         {%- endfor -%}
     </p>

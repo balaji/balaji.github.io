@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{{ page.gist }}
+{%- if page.img != nil -%}
+<div>
+  <img src="/assets/img/{{ page.img.src }}" width="{{ page.img.width }}" />
+</div>
+{%- endif -%}
