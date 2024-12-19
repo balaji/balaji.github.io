@@ -28,11 +28,10 @@ layout: default
                     {%- endfor -%}
                 </em></span>
     {%- if post.img != nil -%}
-    <div>
+    <div style="padding-top:5px">
     <img src="/assets/img/{{ post.img.src }}" width="{{ post.img.width }}" />
     </div>
     {%- endif -%}
-
             <div><small>
                 <em>
                   <a href="{{ post.url | relative_url }}">
@@ -40,7 +39,6 @@ layout: default
                   </a>
                 </em>
             </small></div>
-            <br/>
             {%- if i < post_length -%}
             <hr>
             {%- endif -%}
