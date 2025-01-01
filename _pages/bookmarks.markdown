@@ -4,8 +4,6 @@ title: Bookmarks
 permalink: /bookmarks/
 description: 
 ---
-Media I found worth bookmarking.
-
 <!--
 ### Webpages
 ### Quotes and Excerpts
