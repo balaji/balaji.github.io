@@ -1,7 +1,7 @@
-title: ADHD, bipolar and poor decisions walks into a bar...
+title: Balaji's Weblog
 email: damodaran.balaji@gmail.com
 description: >-
-  My online journal. I like cars, programming, simracing, failures, and more.
+  Life log.
 baseurl: ""
 url: "https://balaji.dev"
 repository: balaji/balaji.github.io
@@ -10,8 +10,7 @@ github: balaji
 author: Balaji Damodaran
 author_bio: >-
   I make my living by writing software for large companies. As the title of this site suggests,
-  I am an Introvert - a serious and boring one. Combine that with symptoms of ADHD and bipolar disorder,
-  you get... well me. I lived <a href="/42-year-career">at least 50%</a> of my life, so it wasn't all bad. I raise two daughters and a cat in the beautiful
+  I lived <a href="/42-year-career">at least 50%</a> of my life, so it wasn't all bad. I raise two daughters and a cat in the beautiful
   city of Stockholm, Sweden.
 author_pic: https://avatars.githubusercontent.com/u/137302?v=4
 

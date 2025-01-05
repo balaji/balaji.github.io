@@ -3,17 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-<div class="callout callout-warning" markdown="span">
-_This blog is not about ADHD, bipolar or other psychiatric conditions._
-</div>
+You most likely found this website because your name is also Balaji. If you are, a warm welcome to you my namesake. The name that puts us in the demographic of a male, South Indian, born between late 1970s to late 1980s, Vishnu devotee parents, career in IT - was indeed once a 'modern' name. It does appear that there are hundreds of thousands of us, isn't it? If you were born earlier, way to go sir! your parents were trailblazers. My sympathies if you were born later.
 
-I am Balaji Damodaran. There are <a href="https://www.linkedin.com/pub/dir/Balaji" target="_blank">many</a> of us. This is my blog.
+I am Balaji Damodaran. There are <a href="https://www.linkedin.com/pub/dir/Balaji" target="_blank">many</a> of us. This blog is about me.
 
-I was the "shy type", "the quite one" in school. I was the "he doesn't speak much, a very calm and obedient person" in my extended family. I was the "Bodhai" (trans: _junkie_) in college. I was the "cool one", "non-confrontational", "doesn't get flustered" at work. I convinced myself that I was an "introvert".
-
-It turns out I might have a few psychiatric disorders afterall. The clues were always there. My constant leg shaking and foot tapping when I sit in public. My seemingly high empathy but low sympathy. My inability to hold unwavering attention during a forty minute presentation/lecture. When we actually went looking for the symptoms to diagnose a family member, I was ticking all the boxes.
-
-So, will I get an official diagnosis? Maybe not, I hacked my way to midlife. It is all downhill from here anyways.
-
-Here is my resume:
+My resume:
 <embed src="/assets/resume.pdf" width="800" height="800" type="application/pdf">
