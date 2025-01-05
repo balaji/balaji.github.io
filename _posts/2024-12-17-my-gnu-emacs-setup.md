@@ -2,7 +2,9 @@
 layout: post
 title: "My GNU Emacs Setup"
 date: 2024-12-16 10:00:00 +0200
-category: software
+category:
+  - software
+  - emacs
 tags:
   - blog
 gist: >-
