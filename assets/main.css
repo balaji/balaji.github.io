@@ -38,6 +38,17 @@ h2 {
     margin-top: 5px;
 }
 
+#gist {
+    border: 1px solid #526980;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#gist_date {
+    padding-top: 5px;
+}
+
 #pages {
     text-align: center;
     margin-top: 20px;
