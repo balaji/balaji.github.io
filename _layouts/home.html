@@ -13,15 +13,21 @@ layout: default
     {%- assign post_length = posts.size -%}
     {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
     {%- for post in posts -%}
-        <div id="gist">
+        {% if post.tags contains "blog" %}
+            <div id="gist" class="blog">
+        {% elsif post.tags contains "bookmark" %}
+            <div id="gist" class="bookmark">
+        {% else %}
+            <div id="gist" class="microblog">
+        {% endif %}
             {{ post.gist | truncate: 600}}
             <span>
                 <em>
                     {%- for tag in post.tags -%}
-                        <a style="color:darkcyan" href="/tags/{{ tag }}">#{{ tag }}</a>&nbsp;
+                        <a style="color:#8ec07c" href="/tags/{{ tag }}">#{{ tag }}</a>&nbsp;
                     {%- endfor -%}
                     {%- for category in post.categories -%}
-                        <a style="color:darkcyan" href="/blogs#{{ category }}">#{{ category }}</a>&nbsp;
+                        <a style="color:#8ec07c" href="/blogs#{{ category }}">#{{ category }}</a>&nbsp;
                     {%- endfor -%}
                 </em>
             </span>
