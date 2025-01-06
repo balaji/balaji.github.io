@@ -18,3 +18,11 @@ Blue Box is a manga. A high-school romance drama with a sports backdrop. It has 
 ### Movies
 #### [Kamal Haasan's 70 favourite Indian movies](https://web.archive.org/web/20240805130423/https://www.hindustantimes.com/interactives/kamal-hassan-70-movies/#expand) `30/Dec/24`
 On 70th Indian Independence Day celebrations, [Hindustan Times](https://hindustantimes.com) requested [Kamal Haasan](https://wikipedia.org/wiki/Kamal_Haasan) (big fan) to curate a list of his favourite 70 Indian films and why (obviously the list is limited to movies released till 2017). The article is lost probably in a website rewrite but wayback machine to the rescue. If wayback machine fails, here is my local copy sans images: [Kamal's 70 favourite Indian Movies](/kamal-70-films).
+
+### Web Series
+#### [Blue Box](https://www.viz.com/blue-box) `01/Jan/25`
+Already added this to the books section. The TV series was what made me read the manga.
+
+#### [Arcane](https://www.arcane.com/en-gb/) `06/Jan/25`
+This could've been a just-another-fantasy series. But the production quality, voice acting, animation, background music and world detail are so phenomenal that it puts the 2 season TV series to one of the best in its category. The "elevation scenes" (action sequences, protagonist/antagonist introductions) are too good, goosebumps guaranteed. Indian commercial movies that rely on elevation should take a note, _this_ is how it is done.
+
