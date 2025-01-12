@@ -20,7 +20,7 @@ layout: default
         {% else %}
             <div id="gist" class="microblog">
         {% endif %}
-            {{ post.gist | truncate: 600}}
+            {{ post.gist | truncate: 700}}
             <span>
                 <em>
                     {%- for tag in post.tags -%}
@@ -32,6 +32,7 @@ layout: default
                 </em>
             </span>
             {%- if post.img != nil -%}
+            <br>
                 <div style="padding-top:5px">
                     <a target="_blank" href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="{{ post.img.width }}" /></a>
                 </div>

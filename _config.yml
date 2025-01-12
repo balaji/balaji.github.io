@@ -35,7 +35,7 @@ plugins:
 jekyll-archives:
   enabled:
     - tags
-  layout: archive
+  layout: tags
   permalinks:
     tag: '/tags/:name/'
 permalink: /:title

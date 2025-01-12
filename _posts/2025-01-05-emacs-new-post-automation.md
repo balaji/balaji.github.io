@@ -8,7 +8,7 @@ categories:
 tags:
   - blog
 gist: >-
-  New blog: <a href="/emacs-new-post-automation">Creating a new Jekyll blog post in Emacs</a> 
+  <a href="/emacs-new-post-automation">Creating a new Jekyll blog post in Emacs</a> 
 ---
 
 I use [Jekyll](https://jekyllrb.com/) static site generator for this blog and it is served through [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll). One needs to create a new file under `_posts` folder to write a new blog. It should be of the [format](https://jekyllrb.com/docs/posts/#creating-posts) `yyyy-mm-dd-title.md`. 
