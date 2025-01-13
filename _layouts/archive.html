@@ -1,12 +1,25 @@
 ---
 layout: default
 ---
-<h4>{{ page.title }}</h4>
-<ul class="posts">
+<div>
+{%- assign date_format = site.minima.date_format | default: "%B %-d, %Y " -%}
   {% for post in page.posts %}
-    <li>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small><em><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span></em></span>
-    </li>
+  <div class="bookmark" id="gist">
+  {{ post.gist }}
+  {%- if post.img != nil -%}
+  <br>
+  <br>
+    <a target="_blank" href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="200" /></a>
+  {%- endif -%}
+    <div id="gist_date">
+      <small>
+        <em>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.date | date: date_format }}
+          </a>
+        </em>
+      </small>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</div>
