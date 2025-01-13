@@ -24,7 +24,6 @@ kramdown:
   syntax_highlighter: rouge
 
 # Build settings
-theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -35,8 +34,7 @@ plugins:
 jekyll-archives:
   enabled:
     - tags
-  layouts:
-    tag: archive
+  layout: archive
   permalinks:
     tag: '/tags/:name/'
 permalink: /:title
@@ -47,7 +45,7 @@ collections:
     permalink: /:title
 
 # Exclude from processing.
-#exclude:
-#  - ".jekyll-cache"
-#  - "Gemfile"
-#  - "Gemfile.lock"
+exclude:
+ - ".jekyll-cache"
+ - "Gemfile"
+ - "Gemfile.lock"
