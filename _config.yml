@@ -35,12 +35,11 @@ plugins:
 jekyll-archives:
   enabled:
     - tags
-  layout: archive
+  layouts:
+    tag: archive
   permalinks:
     tag: '/tags/:name/'
 permalink: /:title
-
-theme_switcher: false
 
 collections:
   pages:
@@ -48,7 +47,7 @@ collections:
     permalink: /:title
 
 # Exclude from processing.
-exclude:
-  - ".jekyll-cache"
-  - "Gemfile"
-  - "Gemfile.lock"
+#exclude:
+#  - ".jekyll-cache"
+#  - "Gemfile"
+#  - "Gemfile.lock"
