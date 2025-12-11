@@ -7,7 +7,7 @@ category:
 tags:
   - blog
 gist: >-
-  <a href="/on-spirituality">on spirituality and atheism</a>
+  <a href="/on-spirituality">On Spirituality and Atheism</a>
 ---
 
 I am an atheist. I don't belive in organised religions. The idea of a three or four dimensional omnipresent and omnipotent supreme entity is too simplistic. I scoff at the belief that this diety can (and wants to) meddle with the day to day activities of every human being through a punishment and reward system. The view that one can please the said diety with self-damaging promises, materialistic offerings and other sacrifices is mindlessness. However... I am intrigued by spirituality and spirtual experiences. 
