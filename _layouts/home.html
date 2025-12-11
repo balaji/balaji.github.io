@@ -34,7 +34,11 @@ layout: default
             {%- if post.img != nil -%}
             <br>
                 <div style="padding-top:5px">
-                    <a target="_blank" href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="{{ post.img.width }}" /></a>
+                  {% if post.tags contains "blog" %}
+                    <a href="{{ post.url }}"><img src="/assets/img/{{ post.img.src }}" width="{{ post.img.width }}" /></a>
+                  {% else %}
+                    <a href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="{{ post.img.width }}" /></a>
+                  {% endif %}
                 </div>
             {%- endif -%}
             <div id="gist_date">

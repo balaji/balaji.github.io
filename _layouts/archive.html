@@ -9,8 +9,12 @@ layout: default
   {%- if post.img != nil -%}
   <br>
   <br>
-    <a target="_blank" href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="200" /></a>
-  {%- endif -%}
+    {% if post.tags contains "blog" %}
+    <a href="{{ post.url }}"><img src="/assets/img/{{ post.img.src }}" width="200"/></a>
+    {% else %}
+    <a href="/assets/img/{{ post.img.src }}"><img src="/assets/img/{{ post.img.src }}" width="200"/></a>
+    {% endif %}
+{%- endif -%}
     <div id="gist_date">
       <small>
         <em>
