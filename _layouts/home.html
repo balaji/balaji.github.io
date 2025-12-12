@@ -26,9 +26,6 @@ layout: default
                     {%- for tag in post.tags -%}
                         <a style="color:#8ec07c" href="/tags/{{ tag }}">#{{ tag }}</a>&nbsp;
                     {%- endfor -%}
-                    {%- for category in post.categories -%}
-                        <a style="color:#8ec07c" href="/blogs#{{ category }}">#{{ category }}</a>&nbsp;
-                    {%- endfor -%}
                 </em>
             </span>
             {%- if post.img != nil -%}
