@@ -17,7 +17,7 @@ This book was written in Hindi - वोल्गा से गंगा (Volga s
 It is a collection of 20 short stories spanning over 8 millennia (6000 BC to 1942 AC) in the backdrop of [Indo-Aryan tribe migration](https://en.wikipedia.org/wiki/Indo-Aryan_migrations) from Eastern Europe to Northern India via Central Asia. The book has 2 parts with 10 stories each. The first 10 stories are set in the BC era and the next 10 stories are AC. In this blog, I review the first part of the book.
 
 
-![Aryan Migration Theory](/assets/img/amt.png)
+![Aryan Migration Theory](/assets/img/amt.jpg)
 <p align="center"><i>Image source: https://www.brownpundits.com/2019/12/20/why-aryan-migration-theory-amt-is-probably-true-but-it-might-not-matter/ enhanced by Google Gemini 3</i></p>
 
 ## The Stories and their themes
