@@ -21,7 +21,7 @@ img {
 }
 
 #title a {
-    color: #458588;
+    color: var(--title-link);
 }
 
 #navigation a {
@@ -53,7 +53,7 @@ img {
     border-radius: 5px;
 }
 #gist {
-    border: 1px solid #665c54;
+    border: 1px solid var(--gist-border);
     border-radius: 5px;
     padding: 6px;
     margin-bottom: 15px;
@@ -64,11 +64,11 @@ img {
 }
 
 .bookmark {
-    background-color: #323836;
+    background-color: var(--bookmark-bg);
 }
 
 .blog {
-    background-color: #3c3836;
+    background-color: var(--blog-bg);
 }
 
 #pages {
